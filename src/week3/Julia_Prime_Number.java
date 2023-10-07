@@ -1,4 +1,7 @@
-package src.week3;
+
+
+package week3;
+Create Kate_Prime_Number.java
 
 public class Julia_Prime_Number {
 
