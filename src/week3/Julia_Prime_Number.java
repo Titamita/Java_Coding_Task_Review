@@ -1,4 +1,4 @@
-package week3;
+package src.week3;
 
 public class Julia_Prime_Number {
 
