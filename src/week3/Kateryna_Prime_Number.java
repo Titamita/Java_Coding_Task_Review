@@ -15,7 +15,7 @@ public class Kateryna_Prime_Number {
         } else if (!(number%2==0 || number%3==0 || number%5==0 || number%7==0)){
             System.out.println(number + " is prime");
         } else {
-            System.out.println(number + " is NOT prime");
+            System.out.println(number + " is NOT prime!");
         }
 
     }
