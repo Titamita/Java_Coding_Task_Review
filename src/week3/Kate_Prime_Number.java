@@ -1,4 +1,4 @@
-package src.week3;
+package week3;
 
 public class Kate_Prime_Number {
 
