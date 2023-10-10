@@ -4,13 +4,13 @@ public class Julia_Prime_Number {
 
     public static void main(String[] args) {
 
-        System.out.println(primeNumber(11));
+        System.out.println(primeNumber(19));
 
     }
 
     public static boolean primeNumber(int n){
 
-        if(n <= 1){ // prime numbers are integers greater than 1
+        if(n < 2){ // prime numbers are integers greater than 1
             return false;
         }
 
