@@ -1,16 +1,15 @@
-package week3;
+package src.week3;
 
-public class Julia_Prime_Number {
-
+public class dan_primeNumber {
     public static void main(String[] args) {
 
-        System.out.println(primeNumber(11));
+        System.out.println(primeNumber(19));
 
     }
 
     public static boolean primeNumber(int n){
 
-        if(n <= 1){ // prime numbers are integers greater than 1
+        if(n < 2){ // prime numbers are integers greater than 1
             return false;
         }
 
