@@ -3,7 +3,7 @@ package src.week4;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FrequencyOfCaracters {
+public class dan_FrequencyOfCaracters {
     public static void main(String[] args) {
     /*
         return method find frequency of chars in a string
