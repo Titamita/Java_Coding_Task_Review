@@ -2,7 +2,7 @@ package src.week4;
 
 import java.util.*;
 
-public class removeDuplicates {
+public class dan_removeDuplicates {
     public static void main(String[] args) {
         String str ="aaaassssdddddqqqqwweeee";
         System.out.println(removeDuplicate(str));
