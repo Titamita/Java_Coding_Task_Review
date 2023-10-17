@@ -8,12 +8,20 @@ public class Kateryna_FrequencyOfCharacters {
 
     public static String removeDuplicates(String letters) {
 
-        String answer = "";
+        String answer = ""; //
 
         for (char each : letters.toCharArray()) {
 
-            if (!(answer.contains("" + each))) {
-                answer += "" + each;
+            int count = 0;
+
+            for (char eachOther : letters.toCharArray()) {
+                if (each == eachOther) {
+                    count++;
+                }
+            }
+
+            if (!(answer.contains("" + each))){
+                answer += "" + each + count;
             }
         }
 
