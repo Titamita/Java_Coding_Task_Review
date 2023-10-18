@@ -1,6 +1,6 @@
 package src.week3;
 
-public class ReverseNegativeNumberElena {
+public class ElenaReverseNegativeNumber {
     public static int reverseNegativeNumber(int num){
         if(num >= 0){
             return num;
