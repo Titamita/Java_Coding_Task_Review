@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SameLetters {
+public class dan_SameLetters {
+
     public static void main(String[] args) {
     String one = "aaaabbbccddess";
     String two = "abcdes";
