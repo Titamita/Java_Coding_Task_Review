@@ -1,6 +1,6 @@
 package src.week3;
 
-public class PrimeNumberOrNotElena {
+public class ElenaPrimerNumberOrNot {
 
     public static boolean isPrime(int n){
         for (int i = 2; i < n; i++){
