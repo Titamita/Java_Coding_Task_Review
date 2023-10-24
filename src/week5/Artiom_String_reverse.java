@@ -1,6 +1,6 @@
 package week5;
 
-public class Art2String_reverse {
+public class Artiom_String_reverse {
 
     public static void main(String[] args) {
 
