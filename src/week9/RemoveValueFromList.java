@@ -16,7 +16,7 @@ public class RemoveValueFromList {
         System.out.println(removeValue(arr,-18));
         System.out.println(removeValue(words,"Ahmed"));
     }
-    public static List<Integer> removeValue(int [] arr, int valueToRemove){
+    public static List<Integer> removeValue(int [] arr, int valueToRemove){   //  version for ints
 
         List< Integer>  num =new ArrayList<>();
         for (Integer i : arr) {
@@ -27,7 +27,7 @@ public class RemoveValueFromList {
         }
         return num;
     }
-    public static List<String> removeValue(String [] arr, String valueToRemove){
+    public static List<String> removeValue(String [] arr, String valueToRemove){  // version for String
 
         List< String>  words =new ArrayList<>();
         for (String i : arr) {
